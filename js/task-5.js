@@ -2,37 +2,32 @@ let totalPrise;
 
 let country = prompt('Введите название Вашей страны');
 
-switch (country) {
-  case 'Китай': {
-    country.toLowerCase() === 'Китай'.toLowerCase();
+switch (country.toLowerCase()) {
+  case 'китай': {
     let totalPrice = 100;
     alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
     break;
   }
 
-  case 'Чили': {
-    country.toLowerCase() === 'Чили'.toLowerCase();
+  case 'чили': {
     let totalPrice = 250;
     alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
     break;
   }
 
-  case 'Австралия': {
-    country.toLowerCase() === 'Австралия'.toLowerCase();
+  case 'австралия': {
     let totalPrice = 170;
     alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
     break;
   }
 
-  case 'Индия': {
-    country.toLowerCase() === 'Индия'.toLowerCase();
+  case 'индия': {
     let totalPrice = 80;
     alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
     break;
   }
 
-  case 'Ямайка': {
-    country.toLowerCase() === 'Индия'.toLowerCase();
+  case 'ямайка': {
     let totalPrice = 120;
     alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
     break;
