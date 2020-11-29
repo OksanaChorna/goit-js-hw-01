@@ -14,3 +14,20 @@ if (answer === null) {
     alert(message);
 }
 
+
+// if (answer === null) {
+//     console.log('Отменено пользователем!');
+// } else {
+//     let totalPrice = pricePerDroid * Number(answer);
+//     let canBuy = credits > totalPrice; 
+
+//     let message;
+
+//     if (canBuy) {
+//         message = `Вы купили ${answer} дроидов, на счету осталось ${credits - totalPrice} кредитов.`;
+//     } else {
+//         message = 'Недостаточно средств на счету!'
+//     }
+
+//     alert(message);
+// }
