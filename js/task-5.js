@@ -4,8 +4,36 @@ let country = prompt('Введите название Вашей страны');
 
 switch (country) {
   case 'Китай': {
-    country === 'Китай';
-    totalPrice = 100;
+    country.toLowerCase() === 'Китай'.toLowerCase();
+    let totalPrice = 100;
+    alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
+    break;
+  }
+
+  case 'Чили': {
+    country.toLowerCase() === 'Чили'.toLowerCase();
+    let totalPrice = 250;
+    alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
+    break;
+  }
+
+  case 'Австралия': {
+    country.toLowerCase() === 'Австралия'.toLowerCase();
+    let totalPrice = 170;
+    alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
+    break;
+  }
+
+  case 'Индия': {
+    country.toLowerCase() === 'Индия'.toLowerCase();
+    let totalPrice = 80;
+    alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
+    break;
+  }
+
+  case 'Ямайка': {
+    country.toLowerCase() === 'Индия'.toLowerCase();
+    let totalPrice = 120;
     alert(`Доставка в ${country} будет стоить ${totalPrice} кредитов`);
     break;
   }
@@ -13,13 +41,3 @@ switch (country) {
   default:
     alert('В Вашей стране доставка не доступна');
 }
-//
-
-// Китай - 100 кредитов
-// Чили - 250 кредитов
-// Австралия - 170 кредитов
-// Индия - 80 кредитов
-// Ямайка - 120 кредитов
-
-// let message =
-// ? `Доставка в [страна] будет стоить [цена] кредитов`
