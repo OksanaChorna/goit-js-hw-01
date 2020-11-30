@@ -1,4 +1,4 @@
-let totalPrise;
+let totalPrice;
 
 const country = prompt('Введите название Вашей страны');
 
